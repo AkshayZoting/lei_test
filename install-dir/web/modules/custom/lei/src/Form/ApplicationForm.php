@@ -140,8 +140,6 @@ public function submitForm(array &$form, FormStateInterface $form_state) {
   } catch (\Exception $e) {
       $error_message = $e->getMessage();
       \Drupal::messenger()->addError($this->t('An error occurred: @message', ['@message' => $error_message]));
-      
-      \Drupal::logger('custom_module')->error('An error occurred: @message', ['@message' => $error_message]);
   }
 }
 
