@@ -1,0 +1,11 @@
+lei_styles:
+  version: 1.0
+  css:
+    theme:
+      css/style.css: {}
+    layout:
+      css/style.css: {}
+lei_js:
+  version: 1.0
+  js:
+    js/test.js: {}

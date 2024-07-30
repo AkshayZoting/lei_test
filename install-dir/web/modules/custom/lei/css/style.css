@@ -1,0 +1,11 @@
+.lei-status-issued {
+    color: green !important; /* Green for "ISSUED" */
+}
+
+.lei-status-lapsed {
+    color: red !important; /* Red for "LAPSED" */
+}
+
+.lei-status-unknown {
+    color: yellow !important; /* Yellow for other statuses */
+}
